@@ -4,3 +4,39 @@
 [submodule "src/modules/CommandHandler"]
 	path = src/modules/CommandHandler
 	url = https://github.com/Damon-Org/CommandHandler
+[submodule "src/modules/UserSetting"]
+	path = src/modules/UserSetting
+	url = https://github.com/Damon-Org/UserSetting
+[submodule "src/modules/ServerSetting"]
+	path = src/modules/ServerSetting
+	url = https://github.com/Damon-Org/ServerSetting
+[submodule "src/modules/MongoDB"]
+	path = src/modules/MongoDB
+	url = https://github.com/Damon-Org/MongoDB
+[submodule "src/modules/Presence"]
+	path = src/modules/Presence
+	url = https://github.com/Damon-Org/Presence
+[submodule "src/modules/WebSocketClient"]
+	path = src/modules/WebSocketClient
+	url = https://github.com/Damon-Org/WebSocketClient
+[submodule "src/modules/Prefix"]
+	path = src/modules/Prefix
+	url = https://github.com/Soft-Wet-Bot/prefix
+[submodule "src/modules/Admin"]
+	path = src/modules/Admin
+	url = https://github.com/Soft-Wet-Bot/admin
+[submodule "src/modules/GoldExperience"]
+	path = src/modules/GoldExperience
+	url = https://github.com/Soft-Wet-Bot/gold-experience
+[submodule "src/modules/Moderation"]
+	path = src/modules/Moderation
+	url = https://github.com/Soft-Wet-Bot/moderation
+[submodule "src/modules/Informative"]
+	path = src/modules/Informative
+	url = https://github.com/Soft-Wet-Bot/informative
+[submodule "src/modules/HeavensDoor"]
+	path = src/modules/HeavensDoor
+	url = https://github.com/Soft-Wet-Bot/heavens-door
+[submodule "src/modules/Fun"]
+	path = src/modules/Fun
+	url = https://github.com/Soft-Wet-Bot/fun

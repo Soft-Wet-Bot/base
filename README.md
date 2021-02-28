@@ -1,91 +1,34 @@
-# Damon Base
+<p align="center">
+  <img alt="base branding" width="768" src="https://i.imgur.com/r4dsZys.png">
+</p>
 
-## Table Of Contents
+# Soft & Wet Base
 
-- [Setup](#setup)
-  - [Requirements](#requirements)
-  - [Repository](#repository)
-  - [Configuration](#configuration)
-    - [auth.js](#authjs)
-    - [config.js](#configjs)
-  - [Running it](#running-it)
-- [Docker](#docker)
-  - [Local Development](#local-development)
+This is Soft & Wet's base, forked from: https://github.com/Damon-Org/damon-base
 
-## Setup
+## Setting it up
 
-### Requirements
+Instructions on setting it up can be found [here](https://github.com/Damon-Org/damon-base/blob/master/README.md).
 
- * Node.js v14.x or higher
+Don't forget that `--recurse-submodules` is also needed for cloning this repo.
 
-### Repository
+## Assets
 
-Make sure to add `--recurse-modules` behind the repository link so all submodules get pulled as well.
+The heavens-door module has a *private* submodule, assets, which includes all the assets used by it.
+Feel free to include images when suggesting a new `heavens door` command!
 
-```sh
-git clone https://github.com/Damon-Org/damon-base --recurse-submodules
-```
+## Relationship with damon-base
 
-### Configuration
+You are highly adviced to do PRs and open issues on the [upstream repo](https://github.com/Damon-Org/damon-base),
+unless you are sure it is directly related to Soft & Wet. This allows all bots that use damon-base to benefit from
+your contributions.
 
-All of these files reside under the [`data/`](data/) directory.
+## Contributors
 
-#### auth.js
+<a href="https://github.com/Soft-Wet-Bot/base/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Soft-Wet-Bot/base" />
+</a>
 
-By default this file does not exist, create this file yourself.
+Made with [contributors-img](https://contrib.rocks).
 
-In the `data/` directory you'll find an example auth file, copy and paste the contents of this file into auth.js (create this file if it doesn't exists).
-
-File contents:
-```js
-export default {
-    token: {
-        prod: '',
-        dev: '<put your development bot token here/if you only use one bot put your production token here as well>'
-    }
-}
-```
-
-#### config.js
-
-In the step above this we set our development and production bot tokens, in this [file](data/config.js) we set when to use which.
-
-If development is set to true the bot will use `token.dev` otherwise it will take `token.prod`.
-
-```js
-{
-    development: true,
-
-    // ...
-}
-```
-
-### Running it
-
-```sh
-# Run npm i to install all of the node_modules
-npm i
-
-# afterwards you can just
-node .
-```
-
-## Docker
-
-Alternatively you can develop and build containers locally.
-
-### Local Development
-
-When developing locally you might not want to install Node.js onto your system, for this you can build a container every time you make changes.
-
-Copy the following command from in the package.json file (since you don't have Node/NPM you can't run these commands from the package file).
-```sh
-# Build a container from the current directory
-docker build --tag damonmusic:test_build .
-
-# Remove the old container
-docker rm damon -f
-
-# Start the container in the current command line, alternatively you can pass the -d flag to run it detached from your current shell
-docker run --init --name damon damonmusic:test_build
-```
+### Don't forget to read to read [CONTRIBUTING.md](https://github.com/Soft-Wet-Bot/base/blob/main/CONTRIBUTING.md) before doing so.
