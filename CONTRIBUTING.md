@@ -9,7 +9,7 @@ We appreciate your willingness to contribute! Here's some important links:
 - [QUESTIONS, SUGGESTIONS AND REQUESTS](#questions-suggestions-and-requests)
 - [SECURITY VULNERABILITIES](#security-vulnerabilities)
 
-## All contributions will be under AGPL 3.0
+## All contributions will be under MIT license
 
 GitHub has a synopsis of it here: https://github.com/Soft-Wet-Bot/base/blob/main/LICENSE
 
