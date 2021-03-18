@@ -31,7 +31,7 @@
     "humanize-duration": "^3.25.1",
     "mongoose": "^5.12.0",
     "sharp": "^0.27.2",
-    "tempy": "^1.0.0",
+    "tempy": "^1.0.1",
     "uuid": "^8.3.2"
   }
 }
