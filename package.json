@@ -25,7 +25,7 @@
   "homepage": "https://github.com/Soft-Wet-Bot/base#readme",
   "dependencies": {
     "@yimura/import-dir": "^0.1.10",
-    "discord.js": "^12.5.1",
+    "discord.js": "^12.5.2",
     "gm": "^1.23.1",
     "hermitpurple": "^0.2.0",
     "humanize-duration": "^3.25.1",
