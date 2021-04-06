@@ -30,7 +30,7 @@
     "hermitpurple": "^0.2.0",
     "humanize-duration": "^3.25.1",
     "mongoose": "^5.12.3",
-    "sharp": "^0.28.0",
+    "sharp": "^0.28.1",
     "tempy": "^1.0.1",
     "uuid": "^8.3.2"
   }
