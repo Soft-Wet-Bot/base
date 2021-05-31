@@ -29,7 +29,7 @@
     "gm": "^1.23.1",
     "hermitpurple": "^0.2.0",
     "humanize-duration": "^3.26.0",
-    "mongoose": "^5.12.11",
+    "mongoose": "^5.12.12",
     "sharp": "^0.28.3",
     "tempy": "^1.0.1",
     "uuid": "^8.3.2"
