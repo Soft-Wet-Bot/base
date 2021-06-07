@@ -28,7 +28,7 @@
     "discord.js": "^12.5.3",
     "gm": "^1.23.1",
     "hermitpurple": "^0.2.0",
-    "humanize-duration": "^3.26.0",
+    "humanize-duration": "^3.27.0",
     "mongoose": "^5.12.13",
     "sharp": "^0.28.3",
     "tempy": "^1.0.1",
